@@ -1,0 +1,913 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Damion&family=Water+Brush&display=swap');
+
+.header-navigation{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 80px;
+    font-family: "DM Sans";
+     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.header-navigation-logo-image{
+    width: 150px;
+}
+
+.header-navigation-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    font-size: 19px;
+}
+
+.header-navigation-option{
+    transition: all 0.4s;
+}
+
+.header-navigation-option:hover{
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    transform: translateY(-5px);
+}
+
+.header-navigation-option-login{
+    background-color: royalblue;
+    color: white;
+    padding: 2px 5px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.header-navigation-option-register{
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.header-navigation-option-login:hover, .header-navigation-option-register:hover{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.customer-registration-form-section-master-container{
+    margin: 20px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+
+    background: linear-gradient(180deg, #023e8a 0%, #0077b6 50%, #0096c7 100%);
+}
+
+.collector-registration-form-section-master-container{
+    margin: 20px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #582f0e 0%, #7f4f24 50%, #936639 100%);
+}
+
+.customer-registration-master-image-container{
+    width: 50%;
+}
+
+.select-vehicle-input{
+    color:rgb(182, 182, 182);
+}
+
+.select-vehicle-input::placeholder{
+    color:rgb(182, 182, 182);
+}
+
+.customer-registration-form-master{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+}
+
+.collector-registration-form-master{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    height: 650px;
+}
+
+.customer-registration-master-image{
+    width: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.collector-registration-master-image{
+    width: 100%;
+    border-radius: 0px 10px 10px 0px;
+    height: 650px;
+}
+
+.customer-registration-master-image{
+    width: 100%;
+    border-radius: 10px 0px 0px 10px;
+    height: 650px;
+}
+
+.customer-registration-form-field{
+    width: 45%;
+    padding: 0px;
+}
+
+.input-field{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    color:white;
+    background-color: rgba(128, 128, 128, 0.6);
+    border: 1px solid white;
+}
+
+.input-field-invalid{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    color:white;
+    background-color: rgba(128, 128, 128, 0.6);
+    border: 2px solid rgba(255, 40, 40, 1);
+}
+
+.input-field::placeholder{
+    color:rgb(182, 182, 182);
+}
+
+.customer-registration-form-tagline{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.yellow{
+    color: rgb(229, 177, 25);
+}
+
+.green{
+    color: green;
+}
+
+.registration-form-button{
+    background-color: goldenrod;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all 300ms;
+    margin-bottom: 10px;
+}
+
+.registration-form-button:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.8) 2px 2px 8px;
+}
+
+.aggrement-line-customer-registration-box{
+    font-weight: 500;
+}
+
+.aggrement-line-customer-registration-box:hover{
+    cursor: pointer;
+}
+
+.white-bold-line{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.collector-registration-form-field-binder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.collector-checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+.agreement-line-customer-registration{
+    display: flex;
+    align-items: center;
+}
+
+.customerLogin{
+    min-height: 100vh;
+}
+
+.customer-login-master-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.customer-login-container{
+    background: linear-gradient(120deg, #adb5bd 0%, #6c757d 50%, #495057 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.collector-login-container{
+    background: linear-gradient(220deg, #adb5bd 0%, #b08968 50%, #7f5539 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.admin-login-container{
+    background: linear-gradient(220deg, #457b9d 0%, #1d3557 50%, #001d3d 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.customer-login-image{
+    width: 500px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.customer-login-info-container{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer-login-email-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.customer-login-password-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.customer-login-input-field{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid white;
+}
+
+.customer-login-input-field::placeholder{
+    color: grey;
+}
+
+.customer-registration-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customer-login-login-btn{
+    background-color: royalblue;
+    color: white;
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.customer-login-login-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.8) 2px 2px 8px;
+    cursor: pointer;
+}
+
+.admin-login-login-btn{
+    background-color: royalblue;
+    color: white;
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.admin-login-login-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.8) 2px 2px 8px;
+    cursor: pointer;
+}
+
+.customer-pickup-form-waste-type-master{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer-pickup-form-container{
+    background: linear-gradient(220deg, #7ab398 0%, #40916c 50%, #23553f 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100%;
+    margin: 0px 80px;
+
+    border-radius: 10px;
+}
+
+.customer-pickup-form{
+    border: 2px solid white;
+    margin: 20px 0px 40px 0px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    background-color: rgba(255, 215, 186, 0.3);
+}
+
+.customer-pickup-form-item{
+    margin: 20px 0px;
+    color: white;
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.customer-pickup-form-item2{
+    margin: 20px 0px;
+    color: white;
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    display: none;
+}
+
+.customer-pickup-form-item-btn{
+    margin: 20px 0px;
+    color: white;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.customer-pickup-form-item-name{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.customer-pickup-form-input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 0px 10px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(64, 64, 64, 0.6);
+}
+
+.customer-pickup-form-input-invalid{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(193, 7, 7);
+    padding: 0px 10px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(64, 64, 64, 0.6);
+}
+
+.customer-pickup-form-input-bio{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 0px 10px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(3, 80, 3, 0.3);
+}
+
+.customer-pickup-form-input-non{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 0px 10px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(65, 105, 225, 0.3);
+}
+
+.customer-pickup-form-input-haz{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 0px 10px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(174, 14, 14, 0.3);
+}
+
+.customer-pickup-form-input::placeholder{
+    color: rgb(224, 224, 224);
+}
+
+.customer-pickup-form-input-bio::placeholder, .customer-pickup-form-input-non::placeholder, .customer-pickup-form-input-haz::placeholder{
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.customer-pickup-form-waste-type-master{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 0px 10px;
+    background-color: rgba(64, 64, 64, 0.6);
+
+    transition: all 0.3s;
+}
+
+.customer-pickup-form-waste-type-master-invalid{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(147, 6, 6);
+    padding: 0px 10px;
+    background-color: rgba(64, 64, 64, 0.6);
+
+    transition: all 0.3s;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customer-pickup-form-waste-type-master:hover{
+    cursor: pointer;
+}
+
+.customer-pickup-form-send-button{
+    width: 200px;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: goldenrod;
+}
+
+.customer-pickup-form-send-button:hover{
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 8px;
+    cursor: pointer;
+}
+
+.customer-pickup-form-header{
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+.grey-text{
+    color: rgb(32, 32, 32);
+}
+
+.customer-pickup-waste-dropdown{
+    position: absolute;
+    top: 80px;
+
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 400px;
+    border-radius: 10px;
+    z-index: 100;
+
+    padding: 10px;
+    font-size: 18px;
+
+    transition: all 0.3s;
+}
+
+.customer-pickup-waste-dropdown-item-bio{
+    background-color: #23553f;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.customer-pickup-waste-dropdown-item-non{
+    background-color: royalblue;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.customer-pickup-waste-dropdown-item-haz{
+    background-color: rgb(203, 49, 49);
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.customer-pickup-waste-dropdown-item-bio:hover, .customer-pickup-waste-dropdown-item-haz:hover, .customer-pickup-waste-dropdown-item-non:hover{
+    cursor: pointer;
+    box-shadow: rgba(255, 255, 255, 0.6) 2px 2px 3px;
+}
+
+.waste-quantity-boxes-container{
+    background-color: rgba(79, 79, 79, 0.7);
+    margin: 0px 100px;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+
+.admin-login-authorize{
+    color: white;
+    font-size: 18px;
+}
+
+.admin-login-authorize:hover{
+    cursor: pointer;
+}
+
+.radio{
+    width: 15px;
+    margin-right: 10px;
+}
+
+.radio:hover{
+    cursor: pointer;
+}
+
+.admin-login-type-container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.admin-login-type-container:hover{
+    cursor: pointer;
+}
+
+.home-page-section-1-img{
+    width: 100%;
+    height: 100vh;
+}
+
+.place-card-1-content-header-image{
+    width: 150px;
+}
+
+.place-card-1-image{
+    width: 250px;
+    border-radius: 10px 10px 10px 10px;
+    height: 100%;
+}
+
+.place-card-1-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: rgba(125, 125, 125, 0.5);
+    border-radius: 10px;
+    padding: 10px 10px;
+
+    margin-top: 20px;
+    transition: all 0.3s;
+}
+
+.place-card-2-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: rgba(125, 125, 125, 0.5);
+    border-radius: 10px;
+    padding: 10px 10px;
+
+    margin-top: 20px;
+    transition: all 0.3s;
+}
+
+.place-card-3-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: rgba(125, 125, 125, 0.5);
+    border-radius: 10px;
+    padding: 10px 10px;
+
+    margin-top: 20px;
+    transition: all 0.3s;
+}
+
+.place-card-1-container:hover, .place-card-2-container:hover, .place-card-3-container:hover{
+    transform: scale(1.1);
+    background-color: rgba(245, 222, 179, 0.5);
+}
+
+.place-cards-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 80px;
+
+    position: absolute;
+    top: 10px;
+}
+
+.place-card-1-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.place-card-1-content-header-text{
+    font-size: 25px;
+    margin-top: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.place-card-1-content-header-content{
+    margin-top: 10px;
+    color: white;
+}
+
+.home-page-section-1{
+    position: relative;
+}
+
+.home-page-section-2{
+    padding: 20px 80px;
+    display: flex;flex-direction: column;
+    align-items: flex-start;
+}
+
+.home-page-section-2-header{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(84, 84, 84);
+}
+
+.home-page-section-2-header:hover{
+    color: green;
+}
+
+.home-page-section-2-line{
+    border: 3px solid wheat;
+    width: 200px;
+}
+
+.home-page-section-2-content-container{
+    margin-top: 20px;
+    font-size: 18px;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.home-page-section-2-content-container:hover{
+    /* background: linear-gradient(320deg, #588157 0%, #3a5a40 50%, #344e41 100%); */
+    /* color: white; */
+}
+
+.home-page-section-2-content-1{
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+.home-page-section-2-content-1:hover{
+
+}
+
+.home-page-section-3{
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.home-page-section-3-header{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(84, 84, 84);
+}
+
+.home-page-section-3-content-container{
+    margin-top: 20px;
+}
+
+.home-page-section-3-content-1-container{
+    margin-bottom:20px;
+    font-size: 18px; 
+}
+
+.home-page-section-3-content-1-header{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: white;
+    width: 100%;
+    background-color: rgba(74, 39, 12, 0.6);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.home-page-section-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.team-member-image{
+    width: 230px;
+    border-radius: 50%;
+    transition: all 0.3s;
+    border: 5px solid grey;
+}
+
+.team-member-image:hover{
+    transform: scale(1.2);
+}
+
+.home-page-section-4-content-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-page-section-4-content-container{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+.home-page-section-4-header{
+    font-size: 50px;
+}
+
+.home-page-section-4-content-container{
+    margin-top: 50px;
+}
+
+.team-member-name{
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: 500;
+
+    color: #282828;
+}
+
+.team-member-description{
+    font-size: 20px;
+}
+
+.footer{
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 1) 100%);
+    color: white;
+
+    margin-top: 40px;
+}
+
+.contact-us-icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-left{
+    width: 50%;
+}
+
+.footer-right{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.contact-us-header{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+    color: rgb(51, 51, 51); 
+}
+
+.contact-us-icons-container{
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.footer-right-login-header{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: rgb(51, 51, 51);
+}
+
+
+.footer-link-text{
+    font-size: 18px;
+    margin: 5px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-right-login{
+    background-color: rgba(50, 75, 104, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    width: 45%;
+}
+
+.footer-link-text:hover{
+    color:grey;
+    cursor: pointer;
+}
+
+.footer-line{
+    border: 2px solid rgb(51, 51, 51);
+}
